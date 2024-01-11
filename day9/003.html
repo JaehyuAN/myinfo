@@ -1,0 +1,49 @@
+<!-- 
+    이 문서의 언어는 한글이다 ->스크린리더가 한글로 읽어준다.
+    장애인도 인터넷을 평등하게 사용해야한다. -> 웹 접근성
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- UTF=8 : 이 문서는 한글로 작성됨-->
+    <meta charset="UTF-8">
+    <!-- viewport : 문서의 확대, 축소 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+        Cascading Style Sheet. CSS 또는 스타일
+        원래 html은 내용과 디자인을 담당했는데
+        널리 사용되면서 디자인을 분리해 전용 표현을 사용한다. 
+        */
+        h1{
+            color:red;
+        }
+        h2{
+            color:yellow;
+        }
+        h1, h2{
+            text-decoration: underline;
+        }
+        h4, h5, h6{
+            color: deeppink;
+        }
+        #hi{
+            color:red;
+            font-size: 200%;
+            font-weight: 700;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading 태그</h1>
+    <h2>제목</h2>
+    <h4>제목</h4>
+    <h5>제목</h5>
+    <h6>제목</h6>
+    <p id="hi">안녕</p>
+    <p>아니</p>
+    <p>그래</p>
+</body>
+</html>
